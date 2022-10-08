@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="sayt.css">
+  <link rel="stylesheet" type="text/css" href="http://www.mysite.ru/main.css">
+    <title>my account</title>
+
+    <script>
+        function Complete()
+        {
+            var Elem="Фамилия: " + document.Sel1.Family.value +
+                "\nИмя: " + document.Sel1.Name.value +
+                "\nВозраст: " + document.Sel1.Age.value +
+                "\nТелефон: " + document.Sel1.Phone.value;
+            alert(Elem);
+        }
+        function CheckAge(age)
+        {
+            if(age<18)
+                return "18";
+            else
+                return  age;
+        }
+    </script>
+
+
+
+
+</head>
+<body>
+<div class="lock"></div>
+<a class="lock2" href="./famrop.html"></a>
+<a class="lock3" href="./myaccount.html"></a>
+<div class="lock4"></div>
+<div class="lock5"></div>
+<div class="lock6"></div>
+<div class="lock7"></div>
+<div class="lock8"></div>
+<div class="lock9"></div>
+
+<form action="https://gvard.github.io/web/html/" target="_blank">
+    <button id="jk">Лучший сайт в мире</button>
+</form>
+<br><br>
+
+
+<img src="./logofamrop.png" class="kop">
+<H1>My account</H1>
+<FORM NAME="Sel1" class="forma">
+    <TABLE>
+        <TR><TD><B>Фамилия:<style>b{font-family: 'verdana'};b{color:black} table{margin: 0 auto;}</style><B></TD>
+            <TD><INPUT NAME="Family" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD><B>Имя:<B></TD>
+            <TD><INPUT NAME="Name" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD><B>Возраст:<B></TD>
+            <TD><INPUT NAME="Age" SIZE=3 VALUE="18"
+                  onBlur="this.value=CheckAge(this.value)"
+                  onFocus="this.select()"></TD></TR>
+        <TR><TD><B>Почта:<B></TD>
+            <TD><INPUT NAME="Phone" SIZE=3></TD></TR>
+    </TABLE>
+    <div class="kl">
+    <button TYPE="button" onClick="Complete();" style="font-family: 'verdana';background-color: blueviolet; color: rgb(255, 238, 0);border:0ch;">Готово</button>
+    <button TYPE="reset" style="font-family: 'verdana';background-color: blueviolet; color: rgb(255, 238, 0); border:1ch;" VALUE="Сброс">Сброс</button>
+    </div>
+</FORM>
+
+
+
+<script src="./sayt.js"></script>
+
+
+
+
+</body>
+</html>
