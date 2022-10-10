@@ -1,5 +1,5 @@
 body{
-    background-color:#D9D9D9 ;
+    background-color:#ffffff ;
     background-size: 148%; 
 }
 
@@ -57,7 +57,7 @@ height: 80px;
 left: 0px;
 top: 0px;
 
-background: #D9D9D9;
+background: #ffffff;
 border: 1px solid #000000;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -72,7 +72,7 @@ height: 66px;
 left: 6px;
 top: 7px;
 
-background: #8A2BE2;
+background: #000000;
 border-radius: 1px;
 
 }
@@ -85,7 +85,7 @@ width: 154px;
 height: 66px;
 left: 173px;
 top: 7px;
-background: #8A2BE2;
+background: #000000;
 border-radius: 1px;
 
 }
@@ -98,7 +98,7 @@ height: 66px;
 left: 507px;
 top: 7px;
 
-background: #8A2BE2;
+background: #000000;
 border-radius: 1px;
 
 }
@@ -111,7 +111,7 @@ height: 66px;
 left: 340px;
 top: 7px;
 
-background: #8A2BE2;
+background: #000000;
 border-radius: 1px;
 
 }
@@ -124,7 +124,7 @@ height: 33px;
 left: 29px;
 top: 24px;
 
-background: url(image\ 1.png);
+background: url(./image1.png);
 }
 
 /* image 4 */
@@ -136,7 +136,7 @@ height: 26px;
 left: 182px;
 top: 27px;
 
-background: url(image\ 4.png);
+background: url(./img222.png);
 }
 
 /* image 3 */
@@ -148,7 +148,7 @@ height: 56px;
 left: 351px;
 top: 12px;
 
-background: url(image\ 3.png);
+background: url(img33.png);
 
 }
 /* image 5 */
@@ -157,10 +157,10 @@ background: url(image\ 3.png);
 position: absolute;
 width: 133px;
 height: 55px;
-left: 521px;
+left: 516px;
 top: 13px;
 
-background: url(image\ 5.png);
+background: url(img4.png);
 }
 
 
