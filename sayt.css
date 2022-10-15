@@ -73,7 +73,7 @@ left: 6px;
 top: 7px;
 
 background: #000000;
-border-radius: 1px;
+border-radius: 4px;
 
 }
 /* Rectangle 3 */
@@ -86,12 +86,13 @@ height: 66px;
 left: 173px;
 top: 7px;
 background: #000000;
-border-radius: 1px;
+border-radius: 4px;
 
 }
 /* Rectangle 5 */
 
 .lock4{
+display: block;
 position: absolute;
 width: 154px;
 height: 66px;
@@ -99,12 +100,13 @@ left: 507px;
 top: 7px;
 
 background: #000000;
-border-radius: 1px;
+border-radius: 4px;
 
 }
 /* Rectangle 4 */
 
 .lock5{
+display: block;
 position: absolute;
 width: 154px;
 height: 66px;
@@ -112,12 +114,13 @@ left: 340px;
 top: 7px;
 
 background: #000000;
-border-radius: 1px;
+border-radius: 4px;
 
 }
 /* image 1 */
 
 .lock6{
+    display: block;
 position: absolute;
 width: 108px;
 height: 33px;
@@ -130,6 +133,7 @@ background: url(./image1.png);
 /* image 4 */
 
 .lock7{
+    display: block;
 position: absolute;
 width: 129px;
 height: 26px;
@@ -142,6 +146,7 @@ background: url(./img222.png);
 /* image 3 */
 
 .lock8{
+display: block;
 position: absolute;
 width: 133px;
 height: 56px;
@@ -153,7 +158,7 @@ background: url(img33.png);
 }
 /* image 5 */
 .lock9{
-
+    display: block;
 position: absolute;
 width: 133px;
 height: 55px;
@@ -175,4 +180,34 @@ img.kop{
     margin-right: auto;
     width:200px;
     height:200px;
+}
+
+
+/* Rectangle 1 */
+
+.ghgf{
+display: block;
+width: 1764px;
+height: 322px;
+top: 379px;
+margin: 0 auto;
+
+background: #000000;
+border-radius: 4px;
+}
+
+/* Welcome to famrop discussions */
+
+.ghgg{
+text-align: center;
+top: 379px;
+
+font-family: 'Noto Nastaliq Urdu';
+font-style: normal;
+font-weight: 400;
+
+color: #000000;
+
+mix-blend-mode: hard-light;
+filter: blur(2px);
 }
