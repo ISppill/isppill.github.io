@@ -5,7 +5,7 @@ body{
 
 .fh{
     color: rgb(235, 236, 236);
-    background-color:  blueviolet;
+    background-color:  rgb(0, 0, 0);
     font-family: 'verdana';
     font: weight 10;
     padding: 15px 15px;
@@ -40,137 +40,6 @@ form#forma{
     justify-content:center;
     margin-block: 1em;
 }
-
-
-
-
-
-
-
-
-.lock{
-box-sizing: border-box;
-
-position: absolute;
-width: 1920px;
-height: 80px;
-left: 0px;
-top: 0px;
-
-background: #ffffff;
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Rectangle 2 */
-
-.lock2{
-display: block;
-position: absolute;
-width: 154px;
-height: 66px;
-left: 6px;
-top: 7px;
-
-background: #000000;
-border-radius: 4px;
-
-}
-/* Rectangle 3 */
-
-.lock3{
-display: block;
-position: absolute;
-width: 154px;
-height: 66px;
-left: 173px;
-top: 7px;
-background: #000000;
-border-radius: 4px;
-
-}
-/* Rectangle 5 */
-
-.lock4{
-display: block;
-position: absolute;
-width: 154px;
-height: 66px;
-left: 507px;
-top: 7px;
-
-background: #000000;
-border-radius: 4px;
-
-}
-/* Rectangle 4 */
-
-.lock5{
-display: block;
-position: absolute;
-width: 154px;
-height: 66px;
-left: 340px;
-top: 7px;
-
-background: #000000;
-border-radius: 4px;
-
-}
-/* image 1 */
-
-.lock6{
-    display: block;
-position: absolute;
-width: 108px;
-height: 33px;
-left: 29px;
-top: 24px;
-
-background: url(./image1.png);
-}
-
-/* image 4 */
-
-.lock7{
-    display: block;
-position: absolute;
-width: 129px;
-height: 26px;
-left: 182px;
-top: 27px;
-
-background: url(./img222.png);
-}
-
-/* image 3 */
-
-.lock8{
-display: block;
-position: absolute;
-width: 133px;
-height: 56px;
-left: 351px;
-top: 12px;
-
-background: url(img33.png);
-
-}
-/* image 5 */
-.lock9{
-    display: block;
-position: absolute;
-width: 133px;
-height: 55px;
-left: 516px;
-top: 13px;
-
-background: url(img4.png);
-}
-
-
-
-
 
 
 
@@ -211,3 +80,60 @@ color: #000000;
 mix-blend-mode: hard-light;
 filter: blur(2px);
 }
+
+nav{
+background-color: #ffffff;
+height: 80px;
+display: flex;
+justify-content: space-between;
+margin-top: 0;
+padding-left: 16px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+    ul {
+        display: block;
+        list-style-type:disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start:3px;
+    }
+
+
+    nav ul button {
+        margin-right: 20px;
+        font-size: 2em;
+        font-weight:bold ;
+    }
+    .lock2 {
+        display: absolute;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius:0.2ch;
+        font-style: verdana;
+        font-size: bold;
+        border-width: 0px;
+    }
+
+    header {
+        display: block;
+    }
+    nav{
+        margin: 0 auto;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+    }
+    img.lock2{
+        width:100px;
+        height:100px;
+    }
