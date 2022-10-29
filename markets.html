@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="http://www.mysite.ru/main.css">
-    <title>forums</title>
+    <title>markets</title>
     <link rel="shortcut icon" href="./logofamrop.png">
 
 
@@ -32,9 +32,22 @@
 
 <img src="./logofamrop.png" class="kop">
 
+<script type="text/javascript" class="lll">
+    baseUrl = "https://widgets.cryptocompare.com/";
+    var scripts = document.getElementsByTagName("script");
+    var embedder = scripts[ scripts.length - 1 ];
+    (function (){
+    var appName = encodeURIComponent(window.location.hostname);
+    if(appName==""){appName="local";}
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.async = true;
+    var theUrl = baseUrl+'serve/v1/coin/list?fsym=ETH&tsyms=USD';
+    s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+    embedder.parentNode.appendChild(s);
+    })();
+    </script>
 
-<div class="ghgf"></div>
-<div class="ghgg">Welcome to famrop discussions</div>
 
 <script src="./sayt.js"></script>
 
