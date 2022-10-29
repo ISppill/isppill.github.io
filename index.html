@@ -71,20 +71,20 @@
 </div>
 <hr style="color: black;">
 <H1>Start work</H1>
-<FORM NAME="Sel1" class="forma">
+<FORM NAME="Sel1" class="forma" action="display.php" method="POST">
     <TABLE>
         <TR><TD><B>Surname:<style>b{font-family: 'verdana'};b{color:black} table{margin: 0 auto;}</style><B></TD>
-            <TD><INPUT NAME="Family" SIZE=20
+            <TD><INPUT NAME="Family" SIZE=20 type="text"
                   onBlur="this.value=this.value.toUpperCase()"></TD></TR>
         <TR><TD><B>Name:<B></TD>
-            <TD><INPUT NAME="Name" SIZE=20
+            <TD><INPUT NAME="Name" SIZE=20 type="text"
                   onBlur="this.value=this.value.toUpperCase()"></TD></TR>
         <TR><TD><B>Age:<B></TD>
-            <TD><INPUT NAME="Age" SIZE=3 VALUE="18"
+            <TD><INPUT NAME="Age" SIZE=3 VALUE="18" type="text"
                   onBlur="this.value=CheckAge(this.value)"
                   onFocus="this.select()"></TD></TR>
         <TR><TD><B>Mail:<B></TD>
-            <TD><INPUT NAME="Phone" SIZE=3></TD></TR>
+            <TD><INPUT NAME="Phone" SIZE=3 type="text"></TD></TR>
     </TABLE>
     <div class="kl">
     <button TYPE="button" onClick="Complete();" style="font-family: 'verdana';background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);border:0ch;">Save</button>
@@ -92,7 +92,12 @@
     </div>
 </FORM>
 
-
+<h2>Введи свои данные:</h2>
+<form action="display.php" method="POST">
+<p>Введите имя: <input type="text" name="firstname" /></p>
+<p>Введите фамилию: <input type="text" name="lastname" /></p>
+<input type="submit" value="Отправить">
+</form>
 
 <script src="./sayt.js"></script>
 
