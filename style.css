@@ -141,14 +141,6 @@ nav ul {
     li{
         font-family: 'verdana';
     }
-
-    @media (min-width: 1920px) {
-        nav ul li {
-            font-size: 9em;
-        }
-       
-    }
-
     @media (max-width: 750px) {
         nav ul li {
             font-size: 1em;
