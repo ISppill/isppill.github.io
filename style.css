@@ -108,19 +108,15 @@ nav ul {
     }
 
 
-    nav ul button {
+    nav ul li {
         margin-right: 20px;
         font-size: 2em;
         font-weight:bold ;
-    }
-    .lock2 {
-        display: absolute;
-        text-align: center;
-        background-color: #ffffff;
-        border-radius:0.2ch;
         font-style: verdana;
-        font-size: bold;
-        border-width: 0px;
+    }
+    .lock2{
+        text-decoration-line:none;
+        font-style: verdana;
     }
 
     header {
@@ -138,4 +134,53 @@ nav ul {
         height:100px;
     }
 
-    
+    .hhhh{
+        display: inline-block;
+        min-width: 33%;
+    }
+    li{
+        font-family: 'verdana';
+    }
+
+    @media (min-width: 1920px) {
+        nav ul li {
+            font-size: 9em;
+        }
+       
+    }
+
+    @media (max-width: 750px) {
+        nav ul li {
+            font-size: 1em;
+            margin-right: 5px;
+            font-weight:bold ;
+            font-style: verdana;
+
+        }
+        img.bh{
+            width:50px;
+            height:50px;
+        }
+        nav{
+            background-color: #ffffff;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0;
+            padding-left: 16px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            }
+            img.kop{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width:100px;
+                height:100px;
+            }
+            h1{
+                color:#000000;
+                font-size: 2em;
+                font-family: 'verdana';
+                text-align: center;
+    }
