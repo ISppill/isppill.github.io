@@ -34,6 +34,77 @@
 
 <div class="forumtab1"></div>
 
+
+<!-- Side navigation -->
+<div class="sidenav">
+    <a class="bit" href="#">Bitcoin</a>
+    <a href="#">Ethereum</a>
+    <a href="#">Toncoin</a>
+    <a href="#">Litecoin</a>
+  </div>
+
+<div id="my_block">fgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div>
+
+<style>#my_blok{ display: none; width: 300px; height: 200px; background:blue; color: white; }
+
+
+#my_blok_div{width: 300px; height: 200px; cursor: pointer;}</style>
+
+  <script>
+
+    var timeVar='';
+    
+    body = document.querySelector('body');
+    
+    bit = document.querySelector('bit');
+    
+    my_blok = document.querySelector('#my_blok');
+    
+    bit.onclick = function()
+    
+    {
+    
+    if(my_blok.style.display == "block")
+    
+    {
+    
+    my_blok.style = "display: none";
+    
+    }
+    
+    else
+    
+    {
+    
+    my_blok.style = "display: block"; timeVar = 1;
+    
+    }
+    
+    }
+    
+    body.onclick = function()
+    
+    {
+    
+    if(!timeVar)
+    
+    {
+    
+    my_blok.style = "display: none";
+    
+    }
+    
+    if(timeVar) { setTimeout(function(){ timeVar=''; }, 100);}
+    
+    }
+    
+    </script>
+
+
+
+
+
+
 <script src="./sayt.js"></script>
 
 
