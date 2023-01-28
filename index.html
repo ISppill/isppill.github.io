@@ -71,27 +71,20 @@
 </div>
 <hr style="color: black;">
 <H1>Start work</H1>
-<FORM NAME="Sel1" class="forma" action="display.php" method="POST">
-    <TABLE>
-        <TR><TD><B>Surname:<style>b{font-family: 'verdana'};b{color:black} table{margin: 0 auto;}</style><B></TD>
-            <TD><INPUT NAME="Family" SIZE=20 type="text"
-                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
-        <TR><TD><B>Name:<B></TD>
-            <TD><INPUT NAME="Name" SIZE=20 type="text"
-                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
-        <TR><TD><B>Age:<B></TD>
-            <TD><INPUT NAME="Age" SIZE=3 VALUE="18" type="text"
-                  onBlur="this.value=CheckAge(this.value)"
-                  onFocus="this.select()"></TD></TR>
-        <TR><TD><B>Mail:<B></TD>
-            <TD><INPUT NAME="Phone" SIZE=3 type="text"></TD></TR>
-    </TABLE>
-    <div class="kl">
-    <button TYPE="button" onClick="Complete();" style="font-family: 'verdana';background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);border:0ch;">Save</button>
-    <button TYPE="reset" style="font-family: 'verdana';background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); border:1ch;" VALUE="Сброс">Reset</button>
+<div class="jj">
+    <form onsubmit="return false">
+        <div class="form-item"><label>e-mail/number</label>
+            <div class="input-wrapper"><input type="text" id="username" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" /></div>
+        </div>
+        <div class="form-item"><label>Password</label>
+            <div class="input-wrapper"><input type="password" id="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" /><button type="button" id="eyeball">
+                    <div class="eye"></div>
+                </button>
+                <div id="beam"></div>
+            </div>
+        </div><button id="submit">Sign up</button>
+    </form>
     </div>
-</FORM>
-</form>
 
 <script src="./sayt.js"></script>
 
