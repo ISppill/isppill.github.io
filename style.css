@@ -1,6 +1,21 @@
+:root {
+    --var-bgcolor: #fff;
+    --var-fontcolor: rgb(0, 0, 0);
+    --bgColor: white;
+    --thbg:rgb(0, 0, 0);
+  }
+  
+  [dark] {
+    --var-bgcolor: #333;
+    --var-fontcolor: rgb(255, 255, 255);
+    --bgColor: #333;
+    --thbg:white;
+  }
+
+
 body{
-    background-color:#ffffff ;
-    background-size: 148%; 
+    background-color: var(--var-bgcolor);
+    background-size: 148%;
 }
 
 .fh{
@@ -26,7 +41,7 @@ button#jk{
     display: block;
 }
 h1{
-    color:#000000;
+    color:var(--var-fontcolor);
     font-size: 3em;
     font-family: 'verdana';
     text-align: center;
@@ -82,7 +97,7 @@ filter: blur(2px);
 }
 
 nav{
-background-color: #ffffff;
+background-color: var(--bgcolor);
 height: 80px;
 display: flex;
 justify-content: space-between;
@@ -143,16 +158,23 @@ nav ul {
     }
 
 
+.bin{
+    background-color: black;
+}
 
 
 
 
+/*начало темы*/
 
+.cccc{
+background-color: var(--thbg);
+margin: 9px;
+height: 5px;
+border-radius: 5px;
+}
 
-
-
-
-
+/*конец темы*/
 
 
 
@@ -400,6 +422,7 @@ nav ul {
             margin-right: auto;
             width:100px;
             height:100px;
+            transition:transform 150ms ease-in-out;
         }
         h1{
             color:#000000;
